@@ -23,7 +23,7 @@ All root-finding (normal depth, critical depth, weir head) uses a robust bisecti
 Requires **Python 3.10 or newer**.
 
 ```bash
-git clone https://github.com/<your-username>/open-channel-hydraulics.git
+git clone https://github.com/aryaa-ji/open-channel-hydraulics.git
 cd open-channel-hydraulics
 pip install -r requirements.txt
 python examples/demo.py      # runs the worked example and saves figures
