@@ -1,0 +1,19 @@
+[project]
+name = "open-channel-hydraulics"
+version = "0.1.0"
+description = "Simple, tested Python toolkit for open-channel hydraulics: Manning flow, critical depth, weirs and hydraulic jumps."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Arya Aji" }]
+dependencies = ["numpy>=1.24", "matplotlib>=3.7"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["hydraulics"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
